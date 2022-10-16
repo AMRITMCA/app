@@ -8,19 +8,17 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Catalog App'),
-        
       ),
       body: Center(
         child: Container(
           child: Text(
-            'well come Amrit kumar',
+            'well come Amrit kumar sah',
             style:
                 TextStyle(fontSize: 22, color: Color.fromARGB(95, 180, 29, 12)),
           ),
         ),
       ),
       drawer: Drawer(),
-      
     );
   }
 }
